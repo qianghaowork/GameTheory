@@ -14,6 +14,7 @@ Each of the T subsequent lines contains a single integer, n, denoting the number
 
 Constraints
 1<= T <= 100
+
 1<= n <= 100
 
 Output Format
@@ -89,6 +90,7 @@ Each of the T subsequent lines describes a test case in the form of 2 space-sepa
 
 Constraints
 1<= T <= 100
+
 1<= N,M <= 10^6
 
 Output Format
