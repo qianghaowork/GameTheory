@@ -117,12 +117,15 @@ For each test case, print a single integer (i.e., either 1 or 2) denoting the wi
 Sample Input
 
 2
+
 2 2
+
 1 4
 
 Sample Output
 
 2
+
 1
 
 Explanation
@@ -169,14 +172,19 @@ On a new line for each test case, print First if the first player is the winner;
 Sample Input
 
 3
+
 5 2
+
 5 3
+
 8 8
 
 Sample Output
 
 Second
+
 First
+
 First
 
 4) Day 2: Nim Game
@@ -212,14 +220,19 @@ For each test case, print the name of the winner on a new line (i.e.,either Firs
 Sample Input
 
 2
+
 2
+
 1 1
+
 3
+
 2 1 4
 
 Sample Output
 
 Second
+
 First
 
 5) Misere Nim
@@ -240,8 +253,11 @@ Each of the 2T subsequent lines defines a test case. Each test case is described
 2.space-separated integers, S0, S1, ... Sn-1 , where each Si describes the number of stones at pile i.
 
 Constraints
+
 1<= T <= 100
+
 1<= n <= 100
+
 1<= Si <= 10^9 
 
 Output Format
@@ -251,14 +267,19 @@ For each test case, print the name of the winner on a new line (i.e., either Fir
 Sample Input
 
 2
+
 2
+
 1 1
+
 3
+
 2 1 3 
 
 Sample Output
 
 First
+
 Second
 
 6) Day 2: Nimble Game
@@ -280,8 +301,11 @@ Each of the 2T subsequent lines defines a test case. Each test case is described
 2.n space-separated integers, c0, c1, ..., cn-1, where each ci describes the number of coins at square i.
 
 Constraints
+
 1<= T <= 10^4
+
 1<= n <= 100
+
 0<= ci <= 10^9
 
 Output Format
@@ -291,14 +315,19 @@ For each test case, print the name of the winner on a new line (i.e., either Fir
 Sample Input
 
 2
+
 5
+
 0 2 3 0 6
+
 4
+
 0 0 0 0
 
 Sample Output
 
 First
+
 Second
 
 7) Day 2: Poker Nim
@@ -326,8 +355,11 @@ Each of the 2T subsequent lines defines a test case. Each test case is described
 2.n space-separated integers,c0,c1,...,cn-1, where each ci describes the number of chips at pile i.
 
 Constraints
+
 1<= T <= 100
+
 1<= n,k <= 100
+
 1<= ci <= 10^9
 
 Output Format
@@ -337,14 +369,19 @@ For each test case, print the name of the winner on a new line (i.e., either Fir
 Sample Input
 
 2
+
 2 5
+
 1 2
+
 3 5
+
 2 1 3
 
 Sample Output
 
 First
+
 Second
 
 8) Day 2: Tower Breakers, Revisited
@@ -366,8 +403,11 @@ Each of the 2T subsequent lines describes a test case. Each test case is describ
 2. N space-separated integers h0, h1, ..., hN-1, where each hi describes the height of tower i.
 
 Constraints
+
 1<= T <= 100
+
 1<= N <= 100
+
 1<= hi <= 10^6
 
 Output Format
@@ -376,14 +416,19 @@ For each test case, print a single integer (i.e., either 1 or 2) denoting the wi
 
 Sample Input
 2
+
 2 
+
 1 2
+
 3 
+
 1 2 3
 
 Sample Output
 
 1
+
 2
 
 Explanation
