@@ -13,6 +13,7 @@ The first line contains an integer, T , denoting the number of test cases.
 Each of the T subsequent lines contains a single integer, n, denoting the number of stones in a test case.
 
 Constraints
+
 1<= T <= 100
 
 1<= n <= 100
@@ -24,24 +25,39 @@ On a new line for each test case, print First if the first player is the winner;
 Sample Input
 
 8
+
 1
+
 2
+
 3
+
 4
+
 5
+
 6
+
 7
+
 10
 
 Sample Output
 
 Second
+
 First
+
 First
+
 First
+
 First
+
 First
+
 Second
+
 First
 
 Explanation
@@ -89,6 +105,7 @@ The first line contains a single integer, T, denoting the number of test cases.
 Each of the T subsequent lines describes a test case in the form of 2 space-separated integers denoting the respective values for N and M.
 
 Constraints
+
 1<= T <= 100
 
 1<= N,M <= 10^6
@@ -140,7 +157,9 @@ The first line contains an integer, T, denoting the number of test cases.
 Each of the T subsequent lines contains 2 space-separated integers describing the respective x and y values of the coin's coordinate.
 
 Constraints
+
 1<= T <= 15x15
+
 1<= xi,yi <= 15
 
 Output Format
@@ -179,8 +198,11 @@ Each of the 2T subsequent lines defines a test case. Each test case is described
 2.space-separated integers, S0, S1, ... Sn-1 , where each Si describes the number of stones at pile i.
 
 Constraints
+
 1<= T <= 100
+
 1<= n <= 100
+
 1<= Si <= 100
 
 Output Format
