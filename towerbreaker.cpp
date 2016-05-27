@@ -12,7 +12,7 @@ int main() {
     while(T--){
         int N, M;
         cin >> N >> M;
-        vector<int> towers(N, M);
+        
         if (M==1)
             cout << 2 << endl;
         else if ( N % 2==0)

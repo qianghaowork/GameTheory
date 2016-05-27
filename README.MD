@@ -443,3 +443,55 @@ There are two possible moves:
 2.Reduce the third tower to 1.
 
 Whichever move player 1 makes, player 2 will make the other move. Thus, player 2 wins. 
+
+9) Day 3: Tower Breakers,Again!!!
+
+Two players (numbered 1 and 2) are playing a game of Tower Breakers! The rules of the game are as follows:
+
+    Player 1 always moves first, and both players always move optimally.
+    Initially there are N towers of of various heights.
+    The players move in alternating turns. In each turn, a player must choose a tower of height X and break it down into Y towers of height Z such that Y>1 and Y x Z = X.
+    If the current player is unable to make any move, they lose the game.
+
+Given the value of N and the respective height values for all towers, can you determine who will win? If the first player wins, print 1; otherwise, print 2.
+
+Input Format
+
+The first line contains an integer, T , denoting the number of test cases.
+Each of the 2T subsequent lines defines a test case. Each test case is described over the following two lines:
+
+    An integer,N , denoting the number of towers.
+    N space-separated integers, h0, h1, ..., hN-1, where each hi describes the height of tower i.
+
+Constraints
+1 <= T <= 200
+1 <= N <= 100
+1 <= hi <= 10^5
+
+Output Format
+
+For each test case, print a single integer denoting the winner (i.e., either 1 or 2 ) on a new line.
+
+Sample Input
+
+2
+2 
+1 2
+3 
+1 2 3
+
+Sample Output
+
+1
+2
+
+Explanation
+
+In the first test case, the first player simply breaks down second tower of height 2 into two towers of height 1 and wins.
+
+In the second test case, there are only two possible moves:
+
+    Break the second tower into 2 towers of height 1.
+    Break the third tower into 3 towers of height 1.
+
+Whichever move player 1 makes, player 2 can make the other move and win the game.
