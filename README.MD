@@ -464,8 +464,11 @@ Each of the 2T subsequent lines defines a test case. Each test case is described
     N space-separated integers, h0, h1, ..., hN-1, where each hi describes the height of tower i.
 
 Constraints
+
 1 <= T <= 200
+
 1 <= N <= 100
+
 1 <= hi <= 10^5
 
 Output Format
@@ -475,14 +478,19 @@ For each test case, print a single integer denoting the winner (i.e., either 1 o
 Sample Input
 
 2
+
 2 
+
 1 2
+
 3 
+
 1 2 3
 
 Sample Output
 
 1
+
 2
 
 Explanation
