@@ -1,4 +1,4 @@
-##1) Day 1: Game of Stones
+## 1) Day 1: Game of Stones
 
 Two players (numbered 1 and 2) are playing a game with stones. Player 1 always plays first, and the two players move in alternating turns. The game's rules are as follows:
 
@@ -88,7 +88,7 @@ Because all possible moves result in winning, we print Second on a new line.
 
 If n=10, P1 can remove either 2 or 3 stones to win the game, so we print First on a new line. Recall that each player moves optimally, so P1 will not remove 5 stones because doing so would cause to lose the game.
 
-##2) Day 1: Tower Breakers
+## 2) Day 1: Tower Breakers
 
 Two players (numbered 1 and 2) are playing a game of Tower Breakers! The rules of the game are as follows:
 
@@ -136,7 +136,7 @@ In the first test case, P1 chooses one of the two towers and reduces it to 1. Th
 
 In the second test case, there is only one tower of height 4. P1 can reduce it to a height of either 1 or 2, but P1 chooses 1 as both players always choose optimally. Because P2 has no possible move, P1 wins and we print 1 on a new line.
 
-##3) Day 1: A Chessboard Game
+## 3) Day 1: A Chessboard Game
 
 Two players are playing a game on a 15 x 15 chessboard. The rules of the game are as follows:
 
@@ -187,7 +187,7 @@ First
 
 First
 
-##4) Day 2: Nim Game
+## 4) Day 2: Nim Game
 
 Nim is the most famous two-player algorithm game! The basic rules for this game are as follows:
 
@@ -235,7 +235,7 @@ Second
 
 First
 
-##5) Misere Nim
+## 5) Misere Nim
 
 Two people are playing game of Misère Nim. The basic rules for this game are as follows:
 1.The game starts with n piles of stones indexed from 0 to n-1. Each pile (where 0<=i<n ) has Si stones.
@@ -282,7 +282,7 @@ First
 
 Second
 
-##6) Day 2: Nimble Game
+## 6) Day 2: Nimble Game
 
 Two people are playing Nimble! The rules of the game are:
 
@@ -330,7 +330,7 @@ First
 
 Second
 
-##7) Day 2: Poker Nim
+## 7) Day 2: Poker Nim
 
 Poker Nim is another 2-player game that's a simple variation on a Nim game. The rules of the games are as follows:
 
